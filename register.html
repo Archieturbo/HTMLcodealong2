@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrera dig</title>
+</head>
+
+<body>
+    <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=hejsan@live.se" method="post">
+
+        <label for="namn">Ditt namn</label>
+        <input type="text" id="namn" name="namn">
+        <br>
+        <label for="info">Berätta om dina förväntingar på kursen</label>
+        <br>
+        <textarea id="info" cols="80" rows="5" name="info"></textarea>
+
+        <p>Välj maträtt</p>
+        <input type="radio" name="food" id="meat" value="meat">
+        <label for="meat">kött</label>
+        <br>
+        <input type="radio" name="food" id="fish" , value="fish">
+        <label for="fish">Fisk</label>
+        <br>
+
+        <input type="radio" name="food" id="Veg" value="veg">
+        <label for="veg">Vego</label>
+        <br> <br>
+
+        <input type="checkbox" id="newsletter1" name="newsletter2" value="ja">
+        <label for="newsletter1">Vill du ha nyhetsbrev?</label>
+        <input type="hidden" name="newsletter2" value="nej">
+
+        <input type="submit" value="Registrera dig!">
+        
+        <input type="date">
+
+    </form>
+</body>
+
+</html>
